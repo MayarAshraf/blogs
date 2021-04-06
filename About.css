@@ -1,0 +1,274 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'arial','Open Sans', sans-serif;
+    color: #666666;
+}
+.container
+{
+    width: 1000px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+/*Start landing page*/
+.landing-page
+{
+    min-height: 50vh;
+    position: relative;
+}
+.landing-page .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.header-area
+{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    padding: 10px;
+}
+.header-area .logo
+{
+    width: 300px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header-area .logo span
+{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.header-area .links
+{
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 20px;
+    
+    font-size: 15px;
+}
+.header-area .links li
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+.header-area .links li a
+{
+    text-decoration: none;
+    color: #666666;
+}
+.header-area .links li a:hover,
+.header-area .links li a.active
+{
+    color: #007bff;
+    transition: .3s;
+}
+.header-area .icons
+{
+    list-style: none;
+    margin-left: -500px;
+    padding-right: 10px;
+    float: right;
+    font-size: 15px;
+}
+.header-area .icons li
+{
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.header-area .icons li:hover,
+.header-area .icons li.active
+{
+    color: #007bff;
+    transition: .3s;
+}
+.landing-page .container img
+{
+    clear: both;
+    margin-left: -300px;
+    width: 1545px;
+}
+@media (max-width: 767px){ /*mobile phones & tablets rules*/
+     .container
+{
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.landing-page
+{
+    min-height: 60vh;
+    position: relative;
+}
+.header-area .links li
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+.header-area .logo
+{
+    width: 170px ;
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: -60px;
+}
+.header-area .logo span
+{
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.header-area .icons
+{
+    list-style: none;
+    margin-left: -640px;
+    margin-top: 50px;
+    padding-right: 20px;
+    float: right;
+    font-size: 15px;
+}
+.header-area .icons li
+{
+    display: inline-block;
+    margin-left: 28px;
+    cursor: pointer;
+}
+.landing-page .container img
+{
+    clear: both;
+    width: 780px;
+    height: 160px;
+}
+    }
+/*End landing page*/
+/*Start part2*/
+.part2 
+{
+    margin-left: 160px;
+}
+.part2 h2
+{
+    font-weight: bold;
+    color: black;
+}
+.part2 p
+{
+    width: 700px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #888;
+}
+.part2 .sec1 img
+{
+    width: 350px;
+    height: 350px;
+    margin-top: -500px;
+    margin-right: 180px;
+    float: right;
+    transition: 1s;
+}
+.part2 .sec1 img:hover
+{
+    transform: scale(1.1,1.1)
+}
+.part2 .sec1 div
+{
+    width: 350px;
+    height: 350px;
+    border: 2px solid #888;
+    float: right;
+    margin-right: 200px;
+    margin-top: -480px;
+}
+.part2 .sec2
+{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    clear: both;
+}
+.part2 .sec2 h2,.part2 .sec2 p
+{
+    margin-left: 500px;
+}
+.part2 .sec2 img
+{
+    width: 350px;
+    height: 350px;
+    margin-top: -520px;
+    margin-left: 30px;
+    transition: 1s;
+}
+.part2 .sec2 img:hover
+{
+    transform: scale(1.1,1.1)
+}
+.part2 .sec2 div
+{
+    width: 350px;
+    height: 350px;
+    border: 2px solid #888;
+    margin-top: -380px;
+    clear: both;
+    margin-left: 50px;
+}
+@media (max-width: 767px){ /*mobile phones & tablets rules*/
+.part2 
+{
+    margin-left: 20px;
+}
+.part2 p
+{
+    width: 240px;
+    line-height: 20px;
+    font-size: 10px;
+}
+.part2 .sec1 img
+{
+    width: 200px;
+    height: 200px;
+    margin-top: -500px;
+    margin-right: 5px;
+}
+.part2 .sec1 div
+{
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+    margin-top: -480px;
+}
+.part2 .sec2 img
+{
+    width: 200px;
+    height: 200px;
+    margin-top: -820px;
+    margin-left: -5px;
+    transition: 1s;
+}
+.part2 .sec2 div
+{
+    width: 200px;
+    height: 200px;
+    margin-top: -380px;
+    clear: both;
+    margin-left: 15px;
+}
+.part2 .sec2 h2,.part2 .sec2 p
+{
+    margin-left: 220px;
+}
+}
+/*End part2*/

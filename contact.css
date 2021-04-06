@@ -1,0 +1,358 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'arial','Open Sans', sans-serif;
+    color: #666666;
+}
+.container
+{
+    width: 1000px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+/*Start landing page*/
+.landing-page
+{
+    min-height: 50vh;
+    position: relative;
+}
+.landing-page .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.header-area
+{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    padding: 10px;
+}
+.header-area .logo
+{
+    width: 300px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header-area .logo span
+{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.header-area .links
+{
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 20px;
+    
+    font-size: 15px;
+}
+.header-area .links li
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+.header-area .links li a
+{
+    text-decoration: none;
+    color: #666666;
+}
+.header-area .links li a:hover,
+.header-area .links li a.active
+{
+    color: #007bff;
+    transition: .3s;
+}
+.header-area .icons
+{
+    list-style: none;
+    margin-left: -500px;
+    padding-right: 10px;
+    float: right;
+    font-size: 15px;
+}
+.header-area .icons li
+{
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.header-area .icons li:hover,
+.header-area .icons li.active
+{
+    color: #007bff;
+    transition: .3s;
+}
+.landing-page .container img
+{
+    clear: both;
+    margin-left: -300px;
+    width: 1545px;
+}
+@media (max-width: 767px){ /*mobile phones & tablets rules*/
+     .container
+{
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.landing-page
+{
+    min-height: 60vh;
+    position: relative;
+}
+.header-area .links li
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+.header-area .logo
+{
+    width: 170px ;
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: -60px;
+}
+.header-area .logo span
+{
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.header-area .icons
+{
+    list-style: none;
+    margin-left: -640px;
+    margin-top: 50px;
+    padding-right: 20px;
+    float: right;
+    font-size: 15px;
+}
+.header-area .icons li
+{
+    display: inline-block;
+    margin-left: 28px;
+    cursor: pointer;
+}
+.landing-page .container img
+{
+    clear: both;
+    width: 780px;
+    height: 160px;
+}
+    }
+/*End landing page*/
+/*Start part2*/
+.part2
+{
+    margin-top: 50px;
+}
+.part2 .sec1
+{
+    float: left;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #888;
+    margin-left: 220px;
+    margin-right: 100px;
+}
+.part2 .sec2
+{
+    margin-left: 770px;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #888;
+}
+.part2 h2
+{
+    margin-top: -480px;
+    text-indent: -490px;
+    font-weight: lighter;
+}
+input
+{
+    margin-left: -590px;
+    width: 420px;
+    height: 50px;
+    padding-left: 50px;
+}
+i[class="fa fa-envelope-o"]
+{
+    margin-left: -390px;
+}
+textarea
+{
+    margin-top: -360px;
+    margin-right: 820px;
+    float: right;
+    padding-left: 30px;
+    width: 420px;
+    height: 200px;
+    padding-top: 15px;
+}
+button
+{
+    float: left;
+    margin-top: -120px;
+    margin-left: 275px;
+    width: 420px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2D2D2D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .7s;
+}
+button:hover
+{
+    background: #007bff;
+}
+i[class="fa fa-map-marker"]
+{
+    margin-left: 550px;
+}
+h3
+{
+    display: inline;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+p
+{
+    text-indent: 42px;
+}
+i[class="fa fa-phone"],i[class="fa fa-envelope"]
+{
+    padding-left: 10px;
+    margin-top: 50px;
+}
+p[class="call"]
+{
+    color: #007bff;
+    text-indent: 50px;
+}
+@media (max-width: 767px){ /*mobile phones & tablets rules*/
+.part2 .sec1
+{
+    clear: both;
+    width: 240px;
+    height: 550px;
+    border: 1px solid #888;
+    margin-left: 2.5px;
+}
+.part2 .sec2
+{
+    margin-left: 240.5px;
+    width: 240px;
+    height: 550px;
+    border: 1px solid #888;
+}
+.part2 h2
+{
+    text-indent: -315px;
+    font-size: 20px;
+}
+input
+{
+    margin-left: -332px;
+    width: 220px;
+    height: 50px;
+    padding-left: 35px;
+}
+i[class="fa fa-envelope-o"]
+{
+    margin-left: -210px;
+}
+textarea
+{
+    margin-top: -360px;
+    margin-right: 254px;
+    float: right;
+    padding-left: 30px;
+    width: 220px;
+    height: 200px;
+    padding-top: 15px;
+}
+button
+{
+    float: left;
+    margin-top: -120px;
+    margin-left: 10px;
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2D2D2D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .7s;
+}
+i[class="fa fa-map-marker"]
+{
+    margin-left: 230px;
+}
+p
+{
+    text-indent: -40px;
+}
+i[class="fa fa-phone"],i[class="fa fa-envelope"]
+{
+    margin-left: -80px;
+    margin-top: 50px;
+}
+p[class="call"]
+{
+    color: #007bff;
+    text-indent: -40px;
+}
+}
+/*End part2*/
+/*Start part3*/
+div[class="part3"]
+{
+    clear: both;
+    margin-top: 200px;
+    margin-left: 220px;
+}
+img[src="map.PNG"]
+{
+    margin-left: -250px;
+    cursor: pointer;
+    margin-bottom: -50px;
+    width: 1550px ;
+    height: 260px;
+}
+a[class="google"]
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 1400px;
+    float: right;
+}
+@media (max-width: 767px){ /*mobile phones & tablets rules*/
+img[src="map.PNG"]
+{
+    width: 520px
+}
+a[class="google"]
+{
+    margin-right: 400px;
+}
+}
+/*End part3*/
